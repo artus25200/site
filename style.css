@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+}
+
+#bar {
+    background-color: #000000;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    transition: top 0.5s;
+    opacity: 90%;
+    z-index: 10;
+}
+
+#titre {
+    text-align: center;
+    color: white;
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+#droite {
+    color: white;
+    font-family: arial;
+    margin-right: 15px;
+    text-decoration: underline;
+}
+
+#gauche {
+    color: white;
+    font-family: arial;
+    margin-left: 15px;
+}
+
+div#img1 {
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+}
+
+div#img1 img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
