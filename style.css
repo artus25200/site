@@ -40,7 +40,7 @@ body {
 }
 
 div#img1 {
-    height: 700px;
+    height: 80vh;
     overflow: hidden;
     position: relative;
 }
